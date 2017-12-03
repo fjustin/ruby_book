@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
+    <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="to_intsメソッドのリファクタリング">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rgb.rb" afterPath="$PROJECT_DIR$/lib/rgb.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/rgb_test.rb" afterPath="$PROJECT_DIR$/test/rgb_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.coverage" NAME="Run test 'fizz_buzz_test': ruby_book Coverage Results" MODIFIED="1512233650958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
-    <SUITE FILE_PATH="coverage/ruby_book@Run_test__rgb_test___ruby_book.coverage" NAME="Run test 'rgb_test': ruby_book Coverage Results" MODIFIED="1512292735246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__rgb_test___ruby_book.coverage" NAME="Run test 'rgb_test': ruby_book Coverage Results" MODIFIED="1512292836212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -54,8 +53,8 @@
           <file leaf-file-name="rgb_test.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/rgb_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -116,8 +115,8 @@
         <option value="$PROJECT_DIR$/lib/fizz_buzz.rb" />
         <option value="$PROJECT_DIR$/test/fizz_buzz_test.rb" />
         <option value="$PROJECT_DIR$/test/fizz_buzz_spec.rb" />
-        <option value="$PROJECT_DIR$/test/rgb_test.rb" />
         <option value="$PROJECT_DIR$/lib/rgb.rb" />
+        <option value="$PROJECT_DIR$/test/rgb_test.rb" />
       </list>
     </option>
   </component>
@@ -276,7 +275,7 @@
       <updated>1512141686359</updated>
       <workItem from="1512141688889" duration="846000" />
       <workItem from="1512231044297" duration="2580000" />
-      <workItem from="1512271738802" duration="2389000" />
+      <workItem from="1512271738802" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -320,13 +319,17 @@
       <option name="project" value="LOCAL" />
       <updated>1512291458388</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="to_intsメソッドのリファクタリング">
+      <created>1512292753843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512292753843</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 17h 47m 18s.xml">
-      <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 17h 47m 31s.xml">
       <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -354,9 +357,12 @@
     <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 18h 18m 55s.xml">
       <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 18h 20m 37s.xml">
+      <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5815000" />
+    <option name="totallyTimeSpent" value="5922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -366,7 +372,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -393,7 +399,8 @@
     <MESSAGE value="Rspecのインストール" />
     <MESSAGE value="rgbメソッドの実装" />
     <MESSAGE value="リファクタリング1" />
-    <option name="LAST_COMMIT_MESSAGE" value="リファクタリング1" />
+    <MESSAGE value="to_intsメソッドのリファクタリング" />
+    <option name="LAST_COMMIT_MESSAGE" value="to_intsメソッドのリファクタリング" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -471,18 +478,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/rgb_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
+    <entry file="file://$PROJECT_DIR$/test/rgb_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>
