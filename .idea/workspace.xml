@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/rgb.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/rgb_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rgb.rb" afterPath="$PROJECT_DIR$/lib/rgb.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.coverage" NAME="Run test 'fizz_buzz_test': ruby_book Coverage Results" MODIFIED="1512233650958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
-    <SUITE FILE_PATH="coverage/ruby_book@Run_test__rgb_test___ruby_book.coverage" NAME="Run test 'rgb_test': ruby_book Coverage Results" MODIFIED="1512291077176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__rgb_test___ruby_book.coverage" NAME="Run test 'rgb_test': ruby_book Coverage Results" MODIFIED="1512291359855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -88,8 +87,8 @@
           <file leaf-file-name="rgb.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -276,7 +275,7 @@
       <updated>1512141686359</updated>
       <workItem from="1512141688889" duration="846000" />
       <workItem from="1512231044297" duration="2580000" />
-      <workItem from="1512271738802" duration="828000" />
+      <workItem from="1512271738802" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512234788625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rgbメソッドの実装">
+      <created>1512291153581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512291153581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -328,9 +334,12 @@
     <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 17h 51m 18s.xml">
       <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 17h 56m 00s.xml">
+      <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4254000" />
+    <option name="totallyTimeSpent" value="4566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -365,7 +374,8 @@
     <MESSAGE value="テストコードを追加" />
     <MESSAGE value="テストコードの分離" />
     <MESSAGE value="Rspecのインストール" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rspecのインストール" />
+    <MESSAGE value="rgbメソッドの実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="rgbメソッドの実装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -453,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
