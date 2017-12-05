@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/convert_length.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/convert_length_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/convert_length.rb" afterPath="$PROJECT_DIR$/lib/convert_length.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/convert_length_test.rb" afterPath="$PROJECT_DIR$/test/convert_length_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_length_test___ruby_book.coverage" NAME="Run test 'convert_length_test': ruby_book Coverage Results" MODIFIED="1512484781272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_length_test___ruby_book.coverage" NAME="Run test 'convert_length_test': ruby_book Coverage Results" MODIFIED="1512485442428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.coverage" NAME="Run test 'fizz_buzz_test': ruby_book Coverage Results" MODIFIED="1512233650958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__rgb_test___ruby_book.coverage" NAME="Run test 'rgb_test': ruby_book Coverage Results" MODIFIED="1512484719769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
   </component>
@@ -66,7 +66,7 @@
             <entry file="file://$PROJECT_DIR$/test/convert_length_test.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -109,8 +109,8 @@
           <file leaf-file-name="convert_length_test.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/convert_length_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/test/fizz_buzz_spec.rb" />
         <option value="$PROJECT_DIR$/lib/rgb.rb" />
         <option value="$PROJECT_DIR$/test/rgb_test.rb" />
-        <option value="$PROJECT_DIR$/lib/convert_length.rb" />
         <option value="$PROJECT_DIR$/test/convert_length_test.rb" />
+        <option value="$PROJECT_DIR$/lib/convert_length.rb" />
       </list>
     </option>
   </component>
@@ -330,7 +330,7 @@
       <workItem from="1512141688889" duration="846000" />
       <workItem from="1512231044297" duration="2580000" />
       <workItem from="1512271738802" duration="2725000" />
-      <workItem from="1512484402398" duration="635000" />
+      <workItem from="1512484402398" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -388,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512292851982</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="convert_lengthメソッドの実装">
+      <created>1512485068252</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512485068253</updated>
+    </task>
+    <task id="LOCAL-00010" summary="convert_lengthメソッドのテストが通った">
+      <created>1512485156001</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1512485156001</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -401,14 +415,14 @@
     <history-entry file="Run_test_'convert_length_test'__ruby_book - 2017.12.05 at 23h 39m 42s.xml">
       <configuration name="Run test 'convert_length_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 18h 06m 28s.xml">
-      <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'convert_length_test'__ruby_book - 2017.12.05 at 23h 45m 39s.xml">
+      <configuration name="Run test 'convert_length_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 18h 09m 52s.xml">
-      <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'convert_length_test'__ruby_book - 2017.12.05 at 23h 49m 54s.xml">
+      <configuration name="Run test 'convert_length_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 18h 10m 15s.xml">
-      <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'convert_length_test'__ruby_book - 2017.12.05 at 23h 50m 42s.xml">
+      <configuration name="Run test 'convert_length_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_test_'rgb_test'__ruby_book - 2017.12.03 at 18h 16m 41s.xml">
       <configuration name="Run test 'rgb_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
@@ -424,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6786000" />
+    <option name="totallyTimeSpent" value="7141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -435,7 +449,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -462,7 +476,9 @@
     <MESSAGE value="rgbメソッドの実装" />
     <MESSAGE value="リファクタリング1" />
     <MESSAGE value="to_intsメソッドのリファクタリング" />
-    <option name="LAST_COMMIT_MESSAGE" value="to_intsメソッドのリファクタリング" />
+    <MESSAGE value="convert_lengthメソッドの実装" />
+    <MESSAGE value="convert_lengthメソッドのテストが通った" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert_lengthメソッドのテストが通った" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -604,18 +620,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/convert_length.rb">
+    <entry file="file://$PROJECT_DIR$/test/convert_length_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/convert_length_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/convert_length.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
