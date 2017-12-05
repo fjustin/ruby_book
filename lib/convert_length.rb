@@ -1,5 +1,6 @@
+# ハッシュで単位をプログラム(定数)
+UNITS = {m: 1.0,ft: 3.28,in: 39.37}
+
 def convert_length(length,from: :m,to: :m)
-  # ハッシュで単位をプログラム
-  units = {m: 1.0,ft: 3.28,in: 39.37}
-  (length / units[from] * units[to]).round(2)
+  (length / UNITS[from] * UNITS[to]).round(2)
 end
