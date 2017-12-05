@@ -328,7 +328,7 @@
       <workItem from="1512141688889" duration="846000" />
       <workItem from="1512231044297" duration="2580000" />
       <workItem from="1512271738802" duration="2725000" />
-      <workItem from="1512484402398" duration="1330000" />
+      <workItem from="1512484402398" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512485794271</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ハッシュを定数化">
+      <created>1512485811075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512485811075</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -457,7 +464,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7481000" />
+    <option name="totallyTimeSpent" value="7494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -499,7 +506,8 @@
     <MESSAGE value="convert_lengthメソッドのテストが通った" />
     <MESSAGE value="ハッシュのキーをシンボルに変更" />
     <MESSAGE value="メソッドの引数にデフォルトで:mをセット" />
-    <option name="LAST_COMMIT_MESSAGE" value="メソッドの引数にデフォルトで:mをセット" />
+    <MESSAGE value="ハッシュを定数化" />
+    <option name="LAST_COMMIT_MESSAGE" value="ハッシュを定数化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
