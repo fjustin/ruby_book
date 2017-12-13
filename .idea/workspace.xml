@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gate.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/gate_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ticket.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gate.rb" afterPath="$PROJECT_DIR$/lib/gate.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/gate_test.rb" afterPath="$PROJECT_DIR$/test/gate_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,35 +15,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruby_book@Run_test__gate_test___ruby_book.coverage" NAME="Run test 'gate_test': ruby_book Coverage Results" MODIFIED="1513181511945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__gate_test___ruby_book.coverage" NAME="Run test 'gate_test': ruby_book Coverage Results" MODIFIED="1513182241676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_length_test___ruby_book.coverage" NAME="Run test 'convert_length_test': ruby_book Coverage Results" MODIFIED="1512485784388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.coverage" NAME="Run test 'fizz_buzz_test': ruby_book Coverage Results" MODIFIED="1512233650958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_hash_syntax_test___ruby_book.coverage" NAME="Run test 'convert_hash_syntax_test': ruby_book Coverage Results" MODIFIED="1513089706854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__rgb_test___ruby_book.coverage" NAME="Run test 'rgb_test': ruby_book Coverage Results" MODIFIED="1512484719769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gate_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gate.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/gate.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="gate.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/gate.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ticket.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/ticket.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="gate_test.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,8 +86,9 @@
         <option value="$PROJECT_DIR$/lib/convert_length.rb" />
         <option value="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" />
         <option value="$PROJECT_DIR$/lib/convert_hash_syntax.rb" />
-        <option value="$PROJECT_DIR$/test/gate_test.rb" />
+        <option value="$PROJECT_DIR$/lib/ticket.rb" />
         <option value="$PROJECT_DIR$/lib/gate.rb" />
+        <option value="$PROJECT_DIR$/test/gate_test.rb" />
       </list>
     </option>
   </component>
@@ -319,7 +339,7 @@
       <workItem from="1512271738802" duration="2725000" />
       <workItem from="1512484402398" duration="1971000" />
       <workItem from="1513010301757" duration="1386000" />
-      <workItem from="1513074696231" duration="3074000" />
+      <workItem from="1513074696231" duration="3782000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -426,28 +446,17 @@
       <option name="project" value="LOCAL" />
       <updated>1512485841602</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Gateのテストファイルとクラスを作成">
+      <created>1513181536027</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1513181536027</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 31m 33s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 34m 38s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 34m 59s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 35m 28s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 36m 08s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 36m 20s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 38m 49s.xml">
       <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -460,12 +469,31 @@
     <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 11m 54s.xml">
       <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 17m 41s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 18m 03s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 20m 15s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 20m 42s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 21m 45s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 24m 02s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12582000" />
+    <option name="totallyTimeSpent" value="13290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -508,7 +536,8 @@
     <MESSAGE value="メソッドの引数にデフォルトで:mをセット" />
     <MESSAGE value="ハッシュを定数化" />
     <MESSAGE value="convert_lengthが完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert_lengthが完成" />
+    <MESSAGE value="Gateのテストファイルとクラスを作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gateのテストファイルとクラスを作成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -810,18 +839,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/ticket.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gate.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding />
         </state>
       </provider>
