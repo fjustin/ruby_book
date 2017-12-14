@@ -336,7 +336,7 @@
       <workItem from="1512271738802" duration="2725000" />
       <workItem from="1512484402398" duration="1971000" />
       <workItem from="1513010301757" duration="1386000" />
-      <workItem from="1513074696231" duration="5080000" />
+      <workItem from="1513074696231" duration="5105000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -471,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513265318643</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="3つ目と4つ目のメソッドを定義">
+      <created>1513265341596</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1513265341596</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,7 +514,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14588000" />
+    <option name="totallyTimeSpent" value="14613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -558,7 +565,8 @@
     <MESSAGE value="仮実装と他のパターンの実装" />
     <MESSAGE value="calc_fareメソッドの実装" />
     <MESSAGE value="テストのリファクタリング" />
-    <option name="LAST_COMMIT_MESSAGE" value="テストのリファクタリング" />
+    <MESSAGE value="3つ目と4つ目のメソッドを定義" />
+    <option name="LAST_COMMIT_MESSAGE" value="3つ目と4つ目のメソッドを定義" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
