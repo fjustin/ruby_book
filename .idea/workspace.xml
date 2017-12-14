@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/convert_hash_syntax.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__gate_test___ruby_book.coverage" NAME="Run test 'gate_test': ruby_book Coverage Results" MODIFIED="1513265097240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_length_test___ruby_book.coverage" NAME="Run test 'convert_length_test': ruby_book Coverage Results" MODIFIED="1512485784388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.coverage" NAME="Run test 'fizz_buzz_test': ruby_book Coverage Results" MODIFIED="1512233650958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_hash_syntax_test___ruby_book.coverage" NAME="Run test 'convert_hash_syntax_test': ruby_book Coverage Results" MODIFIED="1513089706854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
@@ -23,91 +22,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="fizz_buzz.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/fizz_buzz.rb">
+          <file leaf-file-name="gate.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/gate.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fizz_buzz_test.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fizz_buzz_spec.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/fizz_buzz_spec.rb">
+          <file leaf-file-name="ticket.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/ticket.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rgb_test.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/rgb_test.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="convert_length_test.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/convert_length_test.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="convert_hash_syntax.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lib/convert_hash_syntax.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="convert_hash_syntax_test.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rgb.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".rspec" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/.rspec">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -117,11 +46,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="convert_hash_syntax_test.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
+          <file leaf-file-name="gate_test.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                <state relative-caret-position="388">
+                  <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -154,6 +83,9 @@
         <option value="$PROJECT_DIR$/lib/convert_length.rb" />
         <option value="$PROJECT_DIR$/test/convert_hash_syntax_test.rb" />
         <option value="$PROJECT_DIR$/lib/convert_hash_syntax.rb" />
+        <option value="$PROJECT_DIR$/lib/ticket.rb" />
+        <option value="$PROJECT_DIR$/lib/gate.rb" />
+        <option value="$PROJECT_DIR$/test/gate_test.rb" />
       </list>
     </option>
   </component>
@@ -227,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book">
     <configuration name="Run test 'convert_hash_syntax_test': ruby_book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="ruby_book" />
@@ -312,6 +244,34 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
     </configuration>
+    <configuration name="Run test 'gate_test': ruby_book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="ruby_book" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/gate_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+    </configuration>
     <configuration name="Run test 'rgb_test': ruby_book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="ruby_book" />
@@ -340,18 +300,20 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby_book" />
       <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
       <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
       <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby_book" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby_book" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +336,7 @@
       <workItem from="1512271738802" duration="2725000" />
       <workItem from="1512484402398" duration="1971000" />
       <workItem from="1513010301757" duration="1386000" />
-      <workItem from="1513074696231" duration="2371000" />
+      <workItem from="1513074696231" duration="5105000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -481,43 +443,78 @@
       <option name="project" value="LOCAL" />
       <updated>1512485841602</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Gateのテストファイルとクラスを作成">
+      <created>1513181536027</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1513181536027</updated>
+    </task>
+    <task id="LOCAL-00017" summary="仮実装と他のパターンの実装">
+      <created>1513182263192</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1513182263192</updated>
+    </task>
+    <task id="LOCAL-00018" summary="calc_fareメソッドの実装">
+      <created>1513182837773</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1513182837773</updated>
+    </task>
+    <task id="LOCAL-00019" summary="テストのリファクタリング">
+      <created>1513265318643</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1513265318643</updated>
+    </task>
+    <task id="LOCAL-00020" summary="3つ目と4つ目のメソッドを定義">
+      <created>1513265341596</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1513265341596</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 07m 13s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 11m 54s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 31m 33s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 17m 41s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 34m 38s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 18m 03s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 34m 59s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 20m 15s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 35m 28s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 20m 42s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 36m 08s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 21m 45s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 36m 20s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 24m 02s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 38m 49s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 33m 18s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 38m 54s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.15 at 00h 22m 11s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'convert_hash_syntax_test'__ruby_book - 2017.12.12 at 23h 41m 47s.xml">
-      <configuration name="Run test 'convert_hash_syntax_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.15 at 00h 24m 58s.xml">
+      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11879000" />
+    <option name="totallyTimeSpent" value="14613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -527,10 +524,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -564,7 +561,12 @@
     <MESSAGE value="メソッドの引数にデフォルトで:mをセット" />
     <MESSAGE value="ハッシュを定数化" />
     <MESSAGE value="convert_lengthが完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert_lengthが完成" />
+    <MESSAGE value="Gateのテストファイルとクラスを作成" />
+    <MESSAGE value="仮実装と他のパターンの実装" />
+    <MESSAGE value="calc_fareメソッドの実装" />
+    <MESSAGE value="テストのリファクタリング" />
+    <MESSAGE value="3つ目と4つ目のメソッドを定義" />
+    <option name="LAST_COMMIT_MESSAGE" value="3つ目と4つ目のメソッドを定義" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -779,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -796,16 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/fizz_buzz.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="0">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fizz_buzz_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -818,26 +804,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/rgb_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/convert_length.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/convert_hash_syntax.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -850,18 +828,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/fizz_buzz_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fizz_buzz_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rgb_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/convert_hash_syntax_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="315">
           <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/convert_hash_syntax.rb">
+    <entry file="file://$PROJECT_DIR$/lib/rgb.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ticket.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
         </state>
       </provider>
