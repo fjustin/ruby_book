@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bank.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/team.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/module.rb" afterPath="$PROJECT_DIR$/lib/module.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/deep_freezable.rb" afterPath="$PROJECT_DIR$/lib/deep_freezable.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/deep_freezable_test.rb" afterPath="$PROJECT_DIR$/test/deep_freezable_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ruby_book@Run_test__deep_freezable_test___ruby_book.coverage" NAME="Run test 'deep_freezable_test': ruby_book Coverage Results" MODIFIED="1515254391035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__gate_test___ruby_book.coverage" NAME="Run test 'gate_test': ruby_book Coverage Results" MODIFIED="1513265097240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__convert_length_test___ruby_book.coverage" NAME="Run test 'convert_length_test': ruby_book Coverage Results" MODIFIED="1512485784388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
     <SUITE FILE_PATH="coverage/ruby_book@Run_test__fizz_buzz_test___ruby_book.coverage" NAME="Run test 'fizz_buzz_test': ruby_book Coverage Results" MODIFIED="1512233650958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby_book" />
@@ -33,11 +37,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="module.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="module.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/module.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="705">
                   <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="deep_freezable.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/deep_freezable.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bank.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/bank.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="team.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/team.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -56,12 +90,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="gate_test.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/gate_test.rb">
+        <leaf>
+          <file leaf-file-name="deep_freezable_test.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/deep_freezable_test.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -98,6 +132,10 @@
         <option value="$PROJECT_DIR$/lib/gate.rb" />
         <option value="$PROJECT_DIR$/test/gate_test.rb" />
         <option value="$PROJECT_DIR$/lib/module.rb" />
+        <option value="$PROJECT_DIR$/lib/team.rb" />
+        <option value="$PROJECT_DIR$/lib/bank.rb" />
+        <option value="$PROJECT_DIR$/test/deep_freezable_test.rb" />
+        <option value="$PROJECT_DIR$/lib/deep_freezable.rb" />
       </list>
     </option>
   </component>
@@ -171,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'deep_freezable_test': ruby_book">
     <configuration name="Run test 'convert_hash_syntax_test': ruby_book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="ruby_book" />
@@ -228,7 +266,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
     </configuration>
-    <configuration name="Run test 'fizz_buzz_test': ruby_book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="Run test 'deep_freezable_test': ruby_book" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="ruby_book" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Ilib:test" />
@@ -247,7 +285,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/fizz_buzz_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/deep_freezable_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -313,19 +351,19 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby_book" />
-      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book" />
+      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
+      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'deep_freezable_test': ruby_book" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'fizz_buzz_test': ruby_book" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'deep_freezable_test': ruby_book" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'gate_test': ruby_book" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_hash_syntax_test': ruby_book" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'convert_length_test': ruby_book" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'rgb_test': ruby_book" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +388,7 @@
       <workItem from="1513010301757" duration="1386000" />
       <workItem from="1513074696231" duration="5342000" />
       <workItem from="1513525506318" duration="4000" />
-      <workItem from="1515164255385" duration="2040000" />
+      <workItem from="1515164255385" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -513,18 +551,32 @@
       <option name="project" value="LOCAL" />
       <updated>1515246118281</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Loggableモジュールをextendする">
+      <created>1515253301730</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1515253301730</updated>
+    </task>
+    <task id="LOCAL-00025" summary="deep_freezable_testとdeep_freezableのファイルを準備">
+      <created>1515253834234</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1515253834234</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 11m 54s.xml">
-      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'deep_freezable_test'__ruby_book - 2018.01.07 at 00h 50m 05s.xml">
+      <configuration name="Run test 'deep_freezable_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 17m 41s.xml">
-      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'deep_freezable_test'__ruby_book - 2018.01.07 at 00h 58m 20s.xml">
+      <configuration name="Run test 'deep_freezable_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 18m 03s.xml">
-      <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'deep_freezable_test'__ruby_book - 2018.01.07 at 00h 59m 52s.xml">
+      <configuration name="Run test 'deep_freezable_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
     <history-entry file="Run_test_'gate_test'__ruby_book - 2017.12.14 at 01h 20m 15s.xml">
       <configuration name="Run test 'gate_test': ruby_book" configurationId="TestUnitRunConfigurationType" />
@@ -549,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16894000" />
+    <option name="totallyTimeSpent" value="17996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -560,7 +612,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -603,7 +655,9 @@
     <MESSAGE value="3つ目と4つ目のメソッドを定義" />
     <MESSAGE value="ProductクラスとUserクラスの定義" />
     <MESSAGE value="Loggableモジュールをincludeする" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loggableモジュールをincludeする" />
+    <MESSAGE value="Loggableモジュールをextendする" />
+    <MESSAGE value="deep_freezable_testとdeep_freezableのファイルを準備" />
+    <option name="LAST_COMMIT_MESSAGE" value="deep_freezable_testとdeep_freezableのファイルを準備" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -929,6 +983,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/team.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/deep_freezable_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/deep_freezable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
