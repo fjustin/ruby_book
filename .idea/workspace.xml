@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/module.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/module.rb" afterPath="$PROJECT_DIR$/lib/module.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +36,8 @@
           <file leaf-file-name="module.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/module.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -350,7 +350,7 @@
       <workItem from="1513010301757" duration="1386000" />
       <workItem from="1513074696231" duration="5342000" />
       <workItem from="1513525506318" duration="4000" />
-      <workItem from="1515164255385" duration="895000" />
+      <workItem from="1515164255385" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -499,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513265351133</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ProductクラスとUserクラスの定義">
+      <created>1515245361319</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1515245361323</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,7 +542,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15749000" />
+    <option name="totallyTimeSpent" value="16374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -587,7 +594,8 @@
     <MESSAGE value="calc_fareメソッドの実装" />
     <MESSAGE value="テストのリファクタリング" />
     <MESSAGE value="3つ目と4つ目のメソッドを定義" />
-    <option name="LAST_COMMIT_MESSAGE" value="3つ目と4つ目のメソッドを定義" />
+    <MESSAGE value="ProductクラスとUserクラスの定義" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProductクラスとUserクラスの定義" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -911,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/module.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding />
         </state>
       </provider>
