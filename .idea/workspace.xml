@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bd92e39-8ee6-4cb4-945b-71da549975f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/regexp_checker.rb" afterPath="$PROJECT_DIR$/lib/regexp_checker.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -397,7 +396,7 @@
       <workItem from="1513074696231" duration="5342000" />
       <workItem from="1513525506318" duration="4000" />
       <workItem from="1515164255385" duration="4466000" />
-      <workItem from="1515557144463" duration="1368000" />
+      <workItem from="1515557144463" duration="1391000" />
     </task>
     <task id="LOCAL-00001" summary="テストコードを追加">
       <created>1512232165759</created>
@@ -602,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515565159232</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="rescueでエラー文を表示させた上で再入力させる">
+      <created>1515565510496</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1515565510496</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -638,7 +644,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20688000" />
+    <option name="totallyTimeSpent" value="20711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -673,7 +679,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="テストコードを追加" />
     <MESSAGE value="テストコードの分離" />
     <MESSAGE value="Rspecのインストール" />
     <MESSAGE value="rgbメソッドの実装" />
@@ -698,7 +703,8 @@
     <MESSAGE value="ハッシュに対応" />
     <MESSAGE value="text変数をgets" />
     <MESSAGE value="正規表現にマッチした時の条件分岐" />
-    <option name="LAST_COMMIT_MESSAGE" value="正規表現にマッチした時の条件分岐" />
+    <MESSAGE value="rescueでエラー文を表示させた上で再入力させる" />
+    <option name="LAST_COMMIT_MESSAGE" value="rescueでエラー文を表示させた上で再入力させる" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
