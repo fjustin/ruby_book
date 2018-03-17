@@ -13,4 +13,11 @@ module Effects
       words.split(' ').map(&:reverse).join(' ')
     end
   end
+
+  def self.loud(level)
+    ->(words) do
+      # スペースで分割 > 大文字変換と"!"の付与 > スペースで連結
+      words.split(' ').map {|word| word.upcase + '!' * level}.join(' ')
+    end
+  end
 end
